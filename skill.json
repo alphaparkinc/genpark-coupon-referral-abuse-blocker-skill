@@ -1,0 +1,23 @@
+{
+  "name": "genpark-coupon-referral-abuse-blocker-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Fraud check screening for coupon referrers.",
+  "author": "genpark",
+  "category": "security",
+  "tags": [
+    "security",
+    "fraud"
+  ],
+  "inputs": {
+    "ip_address": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "is_blocked": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
